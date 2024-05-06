@@ -381,12 +381,13 @@ window.onload = function() {
     resetButton.addEventListener('click', function() {
         // Reset score and start a new round
         score = 0;
-        scoreText1.style.display = "none";
-        scoreText2.style.display = "none";
-        End_Text.style.display = "none";
-        resetButton.style.display = "none";
-        boton_inicio.click();
-        logo_final.style.display = "none";
+        location.reload(); // Reload the page
+        //scoreText1.style.display = "none";
+        //scoreText2.style.display = "none";
+       // End_Text.style.display = "none";
+        //resetButton.style.display = "none";
+        //boton_inicio.click();
+        //logo_final.style.display = "none";
     });
 
     
