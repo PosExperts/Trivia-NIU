@@ -310,7 +310,7 @@ window.onload = function() {
                 answerButton.style.width = "90%"; // Adjust width as needed
                 answerButton.style.height = "25%"; // Adjust height as needed
                 answerButton.style.margin = "12px"; // Add margin between buttons
-                answerButton.style.fontSize = "2vw";
+                answerButton.style.fontSize = "4vw";
                 
             }
 
